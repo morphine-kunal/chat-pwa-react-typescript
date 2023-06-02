@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.location-container{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+.fromTo{
+    display: flex;
+    flex-direction: column;
+}
+
+.dp{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.seperator{
+    width: 100%;
+    margin-top: 1.3rem;
+    border-top: 1px solid gray;
+    opacity: 0.2;
+}

@@ -1,0 +1,23 @@
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.chat-name {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
