@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import ChatHeader from './components/ChatHeader';
+import ChatDescription from './components/ChatDescription';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      <ChatHeader/>
+      <ChatDescription/>
     </div>
   );
 }
