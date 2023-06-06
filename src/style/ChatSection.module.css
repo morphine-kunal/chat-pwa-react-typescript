@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  padding: 0;
+  z-index: 0;
+  background-color: #FAF9F4;
+}
+.inputContainer input {
+  /* position: fixed; */
+  width: 80%;
+  height: 42px;
+  font-size: 14px;
+  background-color: #ffffff;
+  outline: none;
+  z-index: 0;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 13px;
+  position: fixed;
+  bottom: 14px;
+  right: 45px;
+}
+.attachment {
+  position: fixed;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border-radius: 999px;
+  width: 124px;
+  height: 44px;
+  padding: 12px 16px 12px 16px;
+  right: 23px;
+  top: 89.6%;
+  z-index: 6;
+}
+.attachment img {
+  width: 16px;
+  height: 16px;
+}
+.attachment::before {
+  content: "▼";
+  position: absolute;
+  top: 35px;
+  color: green;
+}
+.line{
+  flex-grow: 1;
+  border-top: 1px solid #B7B7B7;
+  width: 100%;
+}
+.h2{
+  font-size: 14px;
+  font-weight: 400;
+  color: #B7B7B7;
+  text-transform: uppercase;
+}
