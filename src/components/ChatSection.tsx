@@ -61,13 +61,14 @@ const ChatSection: React.FC = () => {
     console.log(page);
   };
 
-  const scrollToLastMessage = () => {
-    if (messages.length > 0 && lastMessageref.current) {
-      lastMessageref.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  
 
   useEffect(() => {
+    const scrollToLastMessage = () => {
+      if (messages.length > 0 && lastMessageref.current) {
+        lastMessageref.current.scrollIntoView({ behavior: "smooth" });
+      }
+    };
     scrollToLastMessage();
   }, [messages]);
 
